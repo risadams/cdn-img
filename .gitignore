@@ -1,0 +1,12 @@
+# editor / cruft
+.DS_Store
+
+# node
+node_modules
+/dist
+/raw
+
+*.Identifier
+
+#build artifacts that should be copied to CDN
+.vscode/

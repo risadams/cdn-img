@@ -1,0 +1,27 @@
+{
+  "name": "@risadams/cdn-img",
+  "version": "2024.07.1",
+  "description": "personal website for ris adams",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "build": "npx ts-node process-images.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risadams/cdn-img.git"
+  },
+  "author": "ris adams",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^22.10.1",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "path": "^0.12.7",
+    "sharp": "^0.33.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
