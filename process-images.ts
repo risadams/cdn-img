@@ -13,7 +13,7 @@ async function processImages(): Promise<void> {
     await fs.ensureDir(DIST_FOLDER);
 
     // Find all images with specified extensions in the raw folder
-    const imageFiles: string[] = glob.sync(`${RAW_FOLDER}/**/*.{jpg,jpeg,png,gif}`);
+    const imageFiles: string[] = glob.sync(`${RAW_FOLDER}/**/*.{jpg,jpeg,png,gif,webp}`);
 
     if (imageFiles.length === 0) {
       console.log('No images found in the raw folder.');
