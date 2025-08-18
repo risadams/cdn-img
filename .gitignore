@@ -10,3 +10,5 @@ node_modules
 
 #build artifacts that should be copied to CDN
 .vscode/
+
+old/
