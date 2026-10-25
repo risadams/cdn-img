@@ -14,7 +14,7 @@
   "main": "index.html",
   "private": true,
   "scripts": {
-    "build": "npx ts-node process-images.ts"
+    "build": "tsx process-images.ts"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "glob": "^13.0.6",
     "path": "^0.12.7",
     "sharp": "^0.35.5",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }
